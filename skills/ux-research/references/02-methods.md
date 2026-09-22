@@ -5,7 +5,7 @@
 ## Select the evidence, then the method
 
 | Method | Best-fit uncertainty | Minimum setup / useful output | Key limitation and sensible pairing |
-|---|---|---|---|
+| :--- | :--- | :--- | :--- |
 | Interviews | Accounts of needs, motivations, work context, past experiences | Relevant participants; neutral guide; contextual accounts | Recall and social-desirability effects; pair important claims with observation or records |
 | Contextual inquiry | How work happens in its real setting | Access, permission, observation focus, contextual notes | Access and observer effects; contextual findings may not transfer to other settings |
 | Diary study | Experiences and change over time | Participant commitment, manageable prompts, planned duration and check-ins | Missing entries and selective reporting; analyse participation and context |
