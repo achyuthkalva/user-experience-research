@@ -9,4 +9,4 @@
 - Documented twenty-one calibration decisions; original Notion pages unchanged.
 - Synthetic training examples and a twenty-four-case behavioural evaluation set.
 - Reproducible local packaging, format checks, archive safety checks, and synthetic counting tests.
-- No live imports or independent model evaluations recorded. No GitHub publication or open-source license selected.
+- No live imports or independent model evaluations recorded. Public GitHub source repository prepared; no open-source license selected.
