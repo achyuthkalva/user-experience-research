@@ -15,7 +15,7 @@ Classify questions by both dimensions: attitudinal/behavioural and qualitative/q
 ### Protect essential questions and justify scope cuts
 
 | Tier | Treatment | Required record |
-|---|---|---|
+| :--- | :--- | :--- |
 | Tier 1 | Essential to the decision; cannot silently remove | Evidence route or explicit decision blocker; request more access, narrower decision, different timing, or explicit risk ownership |
 | Tier 2 | Important; explore feasible alternatives before dropping | Alternatives considered, why insufficient, remaining impact, next evidence need |
 | Tier 3 | Low impact on this decision; may defer | Acknowledge the omission and reason |
@@ -25,7 +25,7 @@ Classify questions by both dimensions: attitudinal/behavioural and qualitative/q
 ### Use the evidence ladder as claim categories
 
 | Source category | Appropriate claim when justified | Boundary |
-|---|---|---|
+| :--- | :--- | :--- |
 | Directional signal | A problem or opportunity may exist | Does not establish prevalence or causality |
 | Patterned explanation | A recurring pattern has a supported interpretation | Alternative explanations may remain |
 | Sized problem | Frequency or scale is estimated for a defined population/unit | Requires sound sample, measurement, denominator, and uncertainty |
