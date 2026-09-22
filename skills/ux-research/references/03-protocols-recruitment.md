@@ -21,7 +21,7 @@ For each item document: RQ/eligibility purpose, exact wording, response options,
 ## Build the instrument for the selected method
 
 | Method | Required protocol components |
-|---|---|
+| :--- | :--- |
 | Interview | RQ map; broad-to-specific topics; recent-event questions; neutral probes; optional branches; timing; consent and close |
 | Moderated usability | Realistic task scenarios; observation plan; success/failure/assisted definitions; neutral prompts; assistance thresholds; recording permissions |
 | Unmoderated study | Clear independent instructions; supported task state; task order; outcome instrumentation; appropriate follow-up; pilot and quality exclusions |
@@ -48,7 +48,7 @@ Element order is a guide, not a reason to collect personal data before consent. 
 ### Question-crafting checks
 
 | Risky prompt | Better approach |
-|---|---|
+| :--- | :--- |
 | “How much time does this save?” | “What changes, if anything, when you use it?” |
 | “Why was that frustrating?” | “How was that experience for you?” |
 | “Click the filter to find a course.” | “Find an option that meets these needs.” |
