@@ -1,28 +1,64 @@
-# Validation record — UX Research 0.1.0
+# Validation Record — UX Research 0.1.0
 
-**Date: 22 September 2026. Status: team pilot.**
+Date: 22 September 2026  
+Status: Team Pilot
 
-The package was built and locally checked. No live installation into a separate ChatGPT, Gemini, Claude, or cloud account has been performed. No independent cross-model behavioural evaluation or research-speed comparison has been performed.
+The package was built and locally checked.
 
-## Results actually obtained
+Not yet completed:
 
-| Check group | Result | What it establishes |
+- Live installation in a separate ChatGPT, Gemini, Claude, or cloud account
+- Independent cross-model behavioural evaluation
+- Research-speed comparison
+
+## Results Actually Obtained
+
+| Check Group | Result | What It Establishes |
 | :--- | :--- | :--- |
-| Project-specific static validation | 23 / 23 passed | Known metadata, inventory, links, archive layouts, complete embedded content, version markers, and checksums match the release contract. |
-| Automated unit tests | 22 / 22 passed | 14 deterministic evidence-counting tests and 8 package/build tests passed in the local Python environment. |
-| Repeat-build determinism | Passed | Rebuilding identical canonical inputs produced byte-identical artifacts in the local environment. |
-| Runtime inventory | 14 text files | One entrypoint, 11 reference modules, a start guide, and setup guidance; no executable runtime scripts. |
-| Working templates | 12 present | The specified template sections are included. This is not proof of model output quality. |
-| Calibration register | 21 records present | Material adaptations are documented and mapped to their source rationale. |
-| Live model-evaluation scenarios | 24 specified; 0 executed | Prompts, expected behaviours, and critical failures are available for the team pilot. These are not model results. |
-| Native ChatGPT Chat single-.skill import | Not run | Remains a release-validation item; the TXT fallback is a different usage route. |
-| Other provider imports and model behaviour | Not run | Documentation alignment does not establish successful installation or execution. |
+| Project-specific static validation | 23 / 23 passed | Metadata, inventory, links, archive layouts, embedded content, version markers, and checksums match the release contract |
+| Automated unit tests | 22 / 22 passed | 14 deterministic evidence-counting tests and 8 package/build tests passed locally |
+| Repeat-build determinism | Passed | Identical canonical inputs reproduced byte-identical artifacts locally |
+| Runtime inventory | 14 text files | One entrypoint, 11 reference modules, a start guide, and setup guidance |
+| Working templates | 12 present | Required template sections are included |
+| Calibration register | 21 records present | Material adaptations are documented and source-mapped |
+| Live model-evaluation scenarios | 24 specified · 0 executed | Test specifications exist; these are not model results |
+| Native ChatGPT Chat single-.skill import | Not run | Remains a live validation item |
+| Other provider imports and model behaviour | Not run | Documentation alignment is not proof of successful execution |
 
-The deterministic fixture includes eight attendees, six known unaided task outcomes, one missing outcome, one unexposed participant, duplicate evidence, and assisted completion. The expected unaided failure result is **4/6**, with missingness and exposure reported separately. Tests exercise identity, duplication, conflicts, absent data, and invalid input. They do not prove an AI will extract or interpret those facts correctly.
+### Deterministic Fixture
 
-## Reproduce the checks
+The fixture includes:
 
-From the repository root, with Python 3.10 or later:
+- 8 attendees
+- 6 known unaided task outcomes
+- 1 missing outcome
+- 1 unexposed participant
+- Duplicate evidence
+- Assisted completion
+
+Expected unaided failure result:
+
+- **4 / 6**
+- Missingness and exposure reported separately
+
+The tests cover:
+
+- Identity
+- Duplication
+- Conflicts
+- Missing data
+- Invalid input
+
+They do not prove an AI will extract or interpret those facts correctly.
+
+## Reproduce the Checks
+
+Requirements:
+
+- Python 3.10+
+- Standard library only
+
+Run:
 
 ```sh
 python tools/build.py
@@ -30,16 +66,67 @@ python tools/validate.py
 python -m unittest discover -s tests -v
 ```
 
-The scripts use the standard library and do not call AI APIs. Build tools are outside native skill archives. The complete Chat edition embeds every runtime file, with rewritten internal links and an end-of-package marker. The folder .skill and folder ZIP are byte-identical; the Gemini ZIP has SKILL.md at its root. All output files have SHA-256 checksums in the generated release.
+The build verifies:
 
-The executed local test log is in automated-test-results.txt. Machine-readable results are in validation-results.json. These records describe the delivered snapshot; rerun checks after any modification. The checker is project-specific, not the Agent Skills reference validator or a provider certification.
+- Complete runtime embedding
+- Internal link rewriting
+- End-of-package marker
+- Byte-identical folder `.skill` and folder ZIP
+- Root-level `SKILL.md` in the Gemini ZIP
+- SHA-256 checksums
 
-## Security and completeness limits
+Evidence records:
 
-Archive checks cover safe paths, duplicate entries, no symbolic links, text-only runtime files, and equality to canonical source. A limited text-pattern scan found no matched private Notion URLs, workspace identifiers of the scanned forms, signed URLs, or credential patterns in the runtime. This is not a complete security, privacy, accessibility, intellectual-property, or legal audit.
+- `automated-test-results.txt`
+- `validation-results.json`
 
-No real participant records, private Notion exports, account credentials, or client research files are intentionally included. Examples and evaluation fixtures are synthetic. Provider guidance was checked against primary documentation on 22 September 2026 and can change.
+Rerun validation after any modification.
 
-## Required before broad team rollout
+> [!NOTE]
+> The checker is project-specific. It is not the Agent Skills reference validator or a provider certification.
 
-Use TEAM-PILOT.md to record real import and activation results for each surface. Test source access, task routing, correct denominators, unknown overlap, contradictions, missing files, privacy, injected commands, and H3 approval handling. Keep raw evaluations separate from public repository content. Never promote a static pass into a claim of live compatibility or universal reliability.
+## Security and Completeness Limits
+
+Archive checks cover:
+
+- Safe paths
+- Duplicate entries
+- No symbolic links
+- Text-only runtime files
+- Equality to canonical source
+
+A limited text-pattern scan found no matched:
+
+- Private Notion URLs
+- Workspace identifiers of the scanned forms
+- Signed URLs
+- Credential patterns in the runtime
+
+This is not a complete security, privacy, accessibility, intellectual-property, or legal audit.
+
+No real participant records, private Notion exports, account credentials, or client research files are intentionally included.
+
+Examples and evaluation fixtures are synthetic.
+
+Provider guidance was checked against primary documentation on 22 September 2026 and can change.
+
+## Required Before Broad Team Rollout
+
+Use [TEAM-PILOT.md](TEAM-PILOT.md).
+
+Verify:
+
+- Import and activation for each surface
+- Source access
+- Task routing
+- Correct denominators
+- Unknown overlap
+- Contradictory evidence
+- Missing files
+- Privacy behaviour
+- Injected commands
+- H3 approval handling
+
+Keep raw evaluations separate from the public repository.
+
+Do not turn a static pass into a claim of universal compatibility or reliability.
