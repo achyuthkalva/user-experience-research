@@ -1,37 +1,83 @@
-# Start here — UX Research 0.1.0
+# Start Here — UX Research 0.1.0
 
-Use this skill to plan research, review existing evidence, write or audit guides and screeners, analyse findings, or prepare a report. You do not need the original Notion pages. This is a team-pilot release, not a cross-platform certification.
+Use this skill to:
 
-## Choose the file for your situation
+- Plan research
+- Review existing evidence
+- Write or audit guides and screeners
+- Analyse findings
+- Prepare research reports
 
-**Ordinary AI chat:** use `UX-Research-Chat-v0.1.0.txt` from the Team Pack. It is a complete generated edition, not a shortened prompt. Attach it and paste the activation message below. A Markdown edition is also available. This route does not install a persistent native skill.
+You do not need the original Notion pages.
 
-**A supported native skill importer:** try `ux-research-v0.1.0.skill` only when the importer accepts that format. It is a ZIP containing the skill folder. The equivalent folder ZIP is also supplied. An upload succeeding is not enough; run the setup smoke test.
+> [!NOTE]
+> This is a team-pilot release, not a cross-platform certification.
 
-**Gemini Spark Skills:** use `ux-research-gemini-v0.1.0.zip`, which places SKILL.md at the archive root. Confirm account eligibility and organisational data approval first.
+## Choose the Right File
 
-**ChatGPT Work:** use an available native skill route or give Work the complete source/Chat edition and ask it to follow the workflow with its actual authorised tools. Work and Chat are different operating environments; neither is guaranteed to have all tools.
+- **Ordinary AI chat**
+  - Use `UX-Research-Chat-v0.1.0.txt` from the Team Pack.
+  - Attach it, then paste the activation message below.
+  - This is a complete generated edition, not a shortened prompt.
+  - It does not install a persistent native skill.
 
-**Unknown or unsupported importer:** use the complete TXT edition in a compatible chat. Do not rename an arbitrary file and assume native installation. More detail is in SETUP.md.
+- **Supported native skill importer**
+  - Use `ux-research-v0.1.0.skill` only when the importer accepts that format.
+  - It contains the skill folder inside a ZIP archive.
+  - A successful upload is not enough; run the setup smoke test.
 
-## Activation message
+- **Gemini Spark Skills**
+  - Use `ux-research-gemini-v0.1.0.zip`.
+  - `SKILL.md` is at the archive root.
+  - Confirm account eligibility and organisational data approval first.
 
-> Use the attached UX Research skill as the workflow for this task, rather than summarising it. First check which instructions and references you can actually read and report any material limits. Follow the relevant module, preserve evidence traceability and limitations, and do not treat priorities as approved without my explicit approval of the proposed order. My task is: [describe the research work]. My decision, context, evidence, and constraints are: [add what is available].
+- **ChatGPT Work**
+  - Use a native skill route when available.
+  - Otherwise provide the complete source or Chat edition.
+  - Ask Work to use only the tools and files it can actually access.
 
-The bracketed parts are fields for the teammate to fill. No credentials are needed for the skill itself.
+- **Unknown or unsupported importer**
+  - Use the complete TXT edition.
+  - Do not rename an arbitrary file and assume native installation.
 
-## Three useful starting requests
+See [SETUP.md](SETUP.md) for platform details.
 
-“Review these existing recordings/transcripts and programme materials. Map what they can answer before recommending student interviews.”
+## Activation Message
 
-“Audit this discussion guide for leading prompts, missing research-question coverage, and unclear assistance rules.”
+> Use the attached UX Research skill as the workflow for this task, rather than summarising it. First check which instructions and references you can actually read and report any material limits. Follow the relevant module, preserve evidence traceability and limitations, and do not treat priorities as approved without my explicit approval of the proposed order.
+>
+> My task: [describe the research work]
+>
+> Decision and context: [add what is known]
+>
+> Available evidence and constraints: [add what is available]
 
-“Analyse these notes by research question. Separate observations, findings, and candidate insights. Show valid participant counts and counterevidence.”
+The bracketed parts are fields for the teammate to complete.
 
-For first use, run the fictional setup smoke test in references/09-examples.md. Review important output against its original evidence. The skill's human checkpoints do not replace your professional judgement.
+No credentials are required for the skill itself.
 
-## Share the workflow, not the research data
+## Useful Starting Requests
 
-Send the Team Pack as a document attachment through your approved sharing channel, with the activation message. It contains text guidance and synthetic examples, not research records. Check that the recipient can open the ZIP or send the TXT edition directly.
+- “Review these existing recordings/transcripts and programme materials. Map what they can answer before recommending student interviews.”
+- “Audit this discussion guide for leading prompts, missing research-question coverage, and unclear assistance rules.”
+- “Analyse these notes by research question. Separate observations, findings, and candidate insights. Show valid participant counts and counterevidence.”
 
-Keep participant data, contact details, recordings, and client-confidential materials out of the shared skill and repository. Use only AI tools and data-sharing routes approved for your project.
+For first use:
+
+1. Run the fictional setup smoke test in [references/09-examples.md](references/09-examples.md).
+2. Compare important output against the original evidence.
+3. Keep human checkpoints active for interpretation and priority decisions.
+
+## Share the Workflow, Not the Research Data
+
+Share only the workflow package.
+
+Keep these out of the shared skill and repository:
+
+- Participant data
+- Contact details
+- Recordings
+- Client-confidential material
+- Credentials
+
+Use only AI tools and data-sharing routes approved for the project.

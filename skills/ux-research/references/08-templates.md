@@ -45,7 +45,7 @@ Readiness: ready / revise / blocked, with reasons.
 ## T3 — Question coverage and method decision
 
 | RQ / tier | Decision supported | Existing evidence | Coverage and why | Residual gap | Method or no new research | Alternatives considered | Supported claim / limitation |
-|---|---|---|---|---|---|---|---|
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | [RQ] | [Decision] | [Source IDs] | [Sufficient/partial/conflicting/absent] | [Gap] | [Choice] | [Reasons] | [Bounded claim] |
 
 Append the eight-field constraint disclosure: learning need; selected method; constraint fit; can tell; cannot tell; limitations; evidence category/uncertainty; follow-up.
@@ -108,11 +108,11 @@ Consent, permitted processing, retention and sharing:
 ## T7 — Evidence inventory and observation log
 
 | Source ID | Type / date / population | Original purpose and permitted use | Location | Review status | Coverage / limitation |
-|---|---|---|---|---|---|
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | [S01] | [Context] | [Known or unknown] | [Available locator] | [Status] | [RQ and caveat] |
 
 | Evidence ID | Source / participant / session | RQ | Locator | Evidence type | Factual observation or checked quote | Assistance / context | Tentative interpretation / alternatives |
-|---|---|---|---|---|---|---|---|
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | [ST01/E01] | [IDs] | [RQ] | [Line/time/page/record] | [Type] | [Fact] | [Context] | [Hypothesis or not established] |
 
 Batch record: batch ID; exact source range; reviewed/not reviewed; code changes; new evidence; identity issues; cumulative counts not yet final.
@@ -172,7 +172,7 @@ E. Approved evidence assets: existing quotes/clips/screenshots with
 ## T11 — Quality audit
 
 | Issue and source location | Effect on evidence or decisions | Correction | Residual limitation | Status |
-|---|---|---|---|---|
+| :--- | :--- | :--- | :--- | :--- |
 | [Specific issue] | [Consequence] | [Action] | [What cannot be fixed] | [Ready/revise/blocked] |
 
 ## T12 — Cross-environment continuation capsule

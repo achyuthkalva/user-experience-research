@@ -1,7 +1,7 @@
 # 11 — Keep the vocabulary stable
 
 | Term | Meaning in this skill |
-|---|---|
+| :--- | :--- |
 | OMSEP | Objective → Methodology → Scope → Essentials → Protocol; ordered research-planning phases |
 | RQ | Research question linked to a decision; distinct from a participant-facing question |
 | Research frame | Decision, goal, RQs, population, context, and relevant period |

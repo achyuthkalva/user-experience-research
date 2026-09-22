@@ -26,7 +26,7 @@ For installation and import questions, read [SETUP.md](SETUP.md). To learn how a
 ## Route to one workflow
 
 | User task | Read first | Minimum working result |
-|---|---|---|
+| :--- | :--- | :--- |
 | Plan or re-scope a study | [01-plan.md](references/01-plan.md) | Ordered OMSEP plan and constraint disclosure |
 | Decide what existing evidence can answer | [04-evidence-analysis.md](references/04-evidence-analysis.md), then 01 | Evidence inventory, question coverage, residual gaps |
 | Choose or compare research methods | [02-methods.md](references/02-methods.md), then 01 | Question-to-method mapping, alternatives, limits |

@@ -7,7 +7,7 @@
 Use this scale only when an issue or opportunity warrants it. Positive findings and contextual observations may be “not applicable.” Missing information may require “not yet rated.” These are non-rating states, not additional levels.
 
 | Rating | Original label | Criteria to apply and justify |
-|---|---|---|
+| :--- | :--- | :--- |
 | 1 | Good To Know | Minor challenge; goal remains achievable; few participants affected in the available evidence |
 | 2 | Table Stakes | Minor confusion/friction; a meaningful part of the study sample affected |
 | 3 | Appreciable | Significant confusion or loss of the direct path; improvement could help traction |
