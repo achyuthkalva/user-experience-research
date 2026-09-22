@@ -7,7 +7,7 @@ The package was built and locally checked. No live installation into a separate 
 ## Results actually obtained
 
 | Check group | Result | What it establishes |
-|---|---|---|
+| :--- | :--- | :--- |
 | Project-specific static validation | 23 / 23 passed | Known metadata, inventory, links, archive layouts, complete embedded content, version markers, and checksums match the release contract. |
 | Automated unit tests | 22 / 22 passed | 14 deterministic evidence-counting tests and 8 package/build tests passed in the local Python environment. |
 | Repeat-build determinism | Passed | Rebuilding identical canonical inputs produced byte-identical artifacts in the local environment. |
