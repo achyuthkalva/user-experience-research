@@ -5,7 +5,7 @@
 ## Audit the six source bias categories
 
 | Source category | What to inspect | Structural control |
-|---|---|---|
+| :--- | :--- | :--- |
 | Confirmation | Leading hypothesis, selective codes, missing contrary cases | Record hypotheses, test alternatives, retain counterevidence |
 | Culture | Researcher's assumptions about language, norms, access, context | Contextualise evidence; relevant local/domain review |
 | Framing/wording | Loaded prompts, assumed feelings, incomplete options | Neutral wording, balanced options, pilot and peer review |
