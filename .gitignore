@@ -1,0 +1,17 @@
+# Generated releases should be attached to GitHub Releases, not maintained independently.
+dist/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+# Keep real study materials and credentials outside this repository.
+.env
+.env.*
+credentials*
+secrets/
+raw-research/
+participant-data/
+recordings/
+private-source-register/
+local-evaluations/
