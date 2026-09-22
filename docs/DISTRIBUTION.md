@@ -1,19 +1,68 @@
-# Distribution notes
+# Distribution Notes
 
-This package was prepared at the source owner's request for team sharing and evaluation. Public licensing and third-party redistribution permissions have not been determined. This file does not select an open-source license or create a new license grant.
+This package was prepared for team sharing and evaluation.
 
-## WhatsApp or another file-sharing channel
+Public licensing and third-party redistribution permissions have not yet been determined.
 
-Send the Team Pack as a document attachment through an organisation-approved channel. Include the supplied activation message. Test that the recipient can retrieve and open it; mobile ZIP handling and accepted file extensions vary. The complete TXT edition can be sent separately when archive handling is inconvenient.
+This file does not select an open-source license or create a new license grant.
 
-Share only the workflow package. Research evidence belongs in its approved, access-controlled study location. Do not include client material or participant identities in the skill or sample prompts.
+## WhatsApp or Another File-Sharing Channel
 
-## GitHub distribution
+Send the Team Pack as a document attachment through an organisation-approved channel.
 
-The owner has created a public repository for this team-pilot release. Keep the editable source in the repository and keep generated downloads versioned. Before each public update, rerun validation and review the repository history for participant data, client-confidential material, private source links, credentials, or unintended exports.
+Include the activation message.
 
-The supplied `.gitignore` is a reminder, not a data-loss prevention control. Review every file and the repository history before publishing. Do not add raw Notion exports, private source links, identities, credentials, or live study records. Public sources are cited, not vendored as full documents.
+Before relying on the handoff:
 
-Before a public release, the owner should choose a license and verify rights to share the adapted knowledge, including mentorship-derived guidance. A public repository must not imply endorsement by the named source contributors or AI providers.
+- Confirm the recipient can retrieve the file.
+- Confirm they can open the ZIP.
+- Use the complete TXT edition when archive handling is inconvenient.
 
-The public repository is a distribution surface for the workflow only. Publishing the repository does not validate native imports or model behaviour; maintain those results separately in `docs/VALIDATION.md`.
+Share only the workflow package.
+
+Keep research evidence in its approved, access-controlled study location.
+
+Do not include:
+
+- Client material
+- Participant identities
+- Credentials
+- Private study records
+
+## GitHub Distribution
+
+The public repository is the editable source for the team-pilot release.
+
+Before each public update:
+
+1. Rerun validation.
+2. Review the repository history.
+3. Check for participant data.
+4. Check for client-confidential material.
+5. Check for private source links.
+6. Check for credentials or unintended exports.
+
+The supplied `.gitignore` is a reminder—not a data-loss prevention control.
+
+Do not commit:
+
+- Raw Notion exports
+- Private source links
+- Participant identities
+- Credentials
+- Live study records
+
+Cite public sources instead of vendoring full documents.
+
+## Before a Public Release
+
+The owner should:
+
+- Choose a license.
+- Verify rights to share adapted knowledge.
+- Check mentorship-derived guidance.
+- Avoid implying endorsement by named contributors or AI providers.
+
+Publishing the repository does not validate native imports or model behaviour.
+
+Track those results in [VALIDATION.md](VALIDATION.md).
