@@ -46,34 +46,13 @@ The result is a research operating layer—not a generic “UX research prompt.�
 
 The workflow is deliberately vertical so each stage is easy to scan at normal viewing size.
 
-```mermaid
-flowchart TD
-    A[Decision]
-
-    subgraph OMSEP["OMSEP · Plan the Study"]
-      direction TB
-      B["1 · Objective"] --> C["2 · Methodology"]
-      C --> D["3 · Scope"]
-      D --> E["4 · Essentials"]
-      E --> F["5 · Protocol"]
-    end
-
-    A --> B
-    F --> G["Research Evidence"]
-
-    subgraph PRISM["PRISM · Turn Evidence Into Action"]
-      direction TB
-      H["1 · Organise"] --> I["2 · Consolidate"]
-      I --> J["3 · Findings + Candidate Insights"]
-      J --> K["4 · Provisional Severity"]
-      K --> L{"5 · Human Approval"}
-      L -->|Approved| M["6 · Recommendations"]
-      L -->|Revise| J
-    end
-
-    G --> H
-    M --> N["Decision-Ready Reporting"]
-```
+<p align="center">
+  <img
+    src="assets/workflow-overview.svg"
+    alt="Workflow overview showing OMSEP planning the study, research evidence feeding Prism, and human approval before recommendations."
+    width="860"
+  />
+</p>
 
 ### Three Principles Run Through the Entire Skill
 
@@ -126,6 +105,88 @@ Useful inputs include:
 - Product, programme, or operational material
 
 The skill keeps reviewed, inaccessible, excluded, duplicated, and missing evidence separate.
+
+## 💻 Use It From a CLI
+
+Claude Code and Codex can work directly from this repository. If you are new to command-line tools, follow the steps in order and run one command at a time.
+
+### 1. Clone and Open the Repository
+
+```bash
+git clone https://github.com/achyuthkalva/user-experience-research.git
+cd user-experience-research
+```
+
+### 2. Choose One CLI
+
+#### Claude Code
+
+Install Claude Code using one of these methods:
+
+| Method | Command |
+| :--- | :--- |
+| macOS, Linux, or WSL | `curl -fsSL https://claude.ai/install.sh \| bash` |
+| Windows PowerShell | `irm https://claude.ai/install.ps1 \| iex` |
+| Windows Command Prompt | `curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd` |
+| npm global install | `npm install -g @anthropic-ai/claude-code` |
+| npm without a global install | `npx @anthropic-ai/claude-code` |
+
+If you installed it globally, verify and start it:
+
+```bash
+claude --version
+claude doctor
+claude
+```
+
+If you prefer not to install it globally, start it with:
+
+```bash
+npx @anthropic-ai/claude-code
+```
+
+#### Codex
+
+Install Codex using one of these methods:
+
+| Method | Command |
+| :--- | :--- |
+| macOS or Linux standalone installer | `curl -fsSL https://chatgpt.com/codex/install.sh \| sh` |
+| npm global install | `npm install -g @openai/codex` |
+| npm without a global install | `npx @openai/codex` |
+
+If you installed it globally, start it with:
+
+```bash
+codex
+```
+
+If you prefer not to install it globally, start it with:
+
+```bash
+npx @openai/codex
+```
+
+Choose **Sign in with ChatGPT** if Codex asks how you want to authenticate.
+
+### 3. Give the CLI Its First Instruction
+
+After your chosen CLI starts, paste this instruction:
+
+```text
+Read skills/ux-research/START-HERE.md first.
+Then follow the repository's routing instructions.
+Use the appropriate skill and source files for my task and environment.
+```
+
+The exact execution sequence is:
+
+1. clone the repository
+2. enter the repository folder
+3. install or run one CLI
+4. complete authentication if prompted
+5. paste the starter instruction above
+6. describe your real research task and provide the evidence you can safely share
 
 ## 🛠 What It Can Help You Do
 
