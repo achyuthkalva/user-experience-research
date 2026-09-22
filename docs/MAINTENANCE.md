@@ -1,16 +1,71 @@
-# Maintain one canonical workflow
+# Maintain One Canonical Workflow
 
-1. Edit `skills/ux-research/` for workflow changes. Keep the core under 500 lines and route detail to focused references. Avoid parallel independently edited platform versions.
-2. For a source change, update the provenance/source map in reference 10 and explain whether the rule was retained, qualified, or added. Do not silently overwrite the original methodology.
-3. Update `release.json`, the version string in the skill/start guide/setup/templates, the README, and changelog together. The validator detects stale current-version strings in core release documents.
-4. Rebuild and run all checks. Inspect the generated Chat edition and both ZIP layouts. Keep public API/provider guidance explicitly dated.
-5. Run or repeat the relevant model-evaluation cases after any change to routing, evidence handling, or approval logic. Record actual outputs privately; publish only sanitised summaries with scope and limits.
-6. Create a tagged release only after the owner reviews the content, distribution terms, and compatibility claims. Do not label an untested adapter verified.
+1. Edit `skills/ux-research/` for workflow changes.
+   - Keep the core under 500 lines.
+   - Route detail to focused references.
+   - Avoid independently maintained platform variants.
 
-The builder uses only standard-library Python and fixed ZIP metadata so the same canonical input produces the same archives. Build and validation scripts are release-maintenance tools, not mandatory runtime dependencies for the research skill.
+2. For a source change:
+   - Update the provenance/source map in reference 10.
+   - Record whether the rule was retained, qualified, or added.
+   - Do not silently overwrite the original methodology.
 
-## What to record for a model run
+3. Update release metadata together:
+   - `release.json`
+   - Skill version
+   - Start guide
+   - Setup guide
+   - Templates
+   - README
+   - Changelog
 
-Release version and artifact hash; provider/product/surface; model as reported; relevant plan and settings; date; task ID; input fixture version; actual output location; reviewer; per-criterion outcome; critical failures; corrective change; retest reference.
+4. Rebuild and rerun all checks.
+   - Inspect the Chat edition.
+   - Inspect both ZIP layouts.
+   - Keep provider/API guidance explicitly dated.
 
-Never treat a source-document review, a successful file upload, a model's claim that it loaded the skill, or passing deterministic Python tests as an independent behavioural evaluation.
+5. Repeat relevant model-evaluation cases after changes to:
+   - Routing
+   - Evidence handling
+   - Approval logic
+
+6. Create a tagged release only after reviewing:
+   - Content
+   - Distribution terms
+   - Compatibility claims
+
+Do not label an untested adapter as verified.
+
+The builder uses:
+
+- Standard-library Python
+- Fixed ZIP metadata
+- Deterministic inputs
+
+Build and validation scripts are maintenance tools—not runtime dependencies.
+
+## What to Record for a Model Run
+
+Capture:
+
+- Release version
+- Artifact hash
+- Provider / product / surface
+- Reported model
+- Relevant plan and settings
+- Date
+- Task ID
+- Input fixture version
+- Actual output location
+- Reviewer
+- Per-criterion outcome
+- Critical failures
+- Corrective change
+- Retest reference
+
+Do not treat these as independent behavioural evaluation:
+
+- Source-document review
+- Successful file upload
+- A model claiming it loaded the skill
+- Passing deterministic Python tests
