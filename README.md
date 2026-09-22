@@ -17,8 +17,8 @@
 
 <p align="center">
   <a href="#-start-in-60-seconds">Get started</a> ·
-  <a href="downloads/v0.1.0/UX-Research-Team-Pack-v0.1.0.zip">Download Team Pack</a> ·
-  <a href="downloads/v0.1.0/ux-research-v0.1.0.skill">Download .skill</a> ·
+  <a href="https://github.com/achyuthkalva/user-experience-research/archive/refs/heads/main.zip">Download repository</a> ·
+  <a href="skills/ux-research/SKILL.md">View SKILL.md</a> ·
   <a href="skills/ux-research/START-HERE.md">Read the guide</a>
 </p>
 
@@ -67,14 +67,14 @@ flowchart LR
 
 ## ⚡ Start in 60 seconds
 
-### 1. Pick the easiest format for your environment
+### 1. Pick the easiest route for your environment
 
-| You want to… | Use | Download |
-|---|---|---|
-| Send the complete package on WhatsApp / Slack / Teams | Team Pack | [UX-Research-Team-Pack-v0.1.0.zip](downloads/v0.1.0/UX-Research-Team-Pack-v0.1.0.zip) |
-| Use it in an ordinary AI chat with a file attachment | Complete Chat edition | [UX-Research-Chat-v0.1.0.txt](downloads/v0.1.0/UX-Research-Chat-v0.1.0.txt) |
-| Import into a compatible Agent Skills environment | `.skill` package | [ux-research-v0.1.0.skill](downloads/v0.1.0/ux-research-v0.1.0.skill) |
-| Import into Gemini Spark Skills | Gemini package | [ux-research-gemini-v0.1.0.zip](downloads/v0.1.0/ux-research-gemini-v0.1.0.zip) |
+| You want to… | Start here |
+|---|---|
+| Inspect or adapt the canonical skill | [skills/ux-research/](skills/ux-research/) |
+| Download everything as one ZIP | [Download the repository](https://github.com/achyuthkalva/user-experience-research/archive/refs/heads/main.zip) |
+| Build a `.skill`, Gemini ZIP, Chat TXT, or WhatsApp Team Pack | Run [tools/build.py](tools/build.py) locally |
+| Understand platform differences first | [Setup & Compatibility](skills/ux-research/SETUP.md) |
 
 > [!IMPORTANT]
 > A file attachment and a native skill installation are not the same thing. Platform support varies. See [Setup & Compatibility](skills/ux-research/SETUP.md) before rollout.
@@ -172,7 +172,6 @@ For the compatibility rationale and provider-specific notes, read [SETUP.md](ski
 ```text
 user-experience-research/
 ├── assets/                         Visual README assets
-├── downloads/v0.1.0/              Ready-to-share release files
 ├── docs/                           Distribution, maintenance, pilot, validation
 ├── skills/ux-research/
 │   ├── SKILL.md                    Canonical runtime entry point
@@ -239,9 +238,9 @@ Before proposing a methodological change, document the source or rationale and i
 
 ## 📦 Sharing with your team
 
-For the lowest-friction handoff, send the [Team Pack](downloads/v0.1.0/UX-Research-Team-Pack-v0.1.0.zip). It contains the `.skill`, Gemini ZIP, complete Chat TXT, start guide, activation prompt, validation note, and a WhatsApp-ready message.
+For the lowest-friction handoff, clone or download this repository and run `python tools/build.py`. The generated `dist/UX-Research-Team-Pack-v0.1.0.zip` contains the `.skill`, Gemini ZIP, complete Chat TXT, start guide, activation prompt, validation note, and a WhatsApp-ready message. Generated archives are intentionally not committed to source control.
 
-No participant or client data is bundled in the package.
+No participant or client data is bundled by the builder.
 
 ## ⚖️ License
 
