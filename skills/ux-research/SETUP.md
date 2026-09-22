@@ -5,7 +5,7 @@ Version 0.1.0, team pilot. Documentation checked 2026-09-22. Primary references 
 ## What the deliverables actually are
 
 | File | Contents | Intended use |
-|---|---|---|
+| :--- | :--- | :--- |
 | `ux-research-v0.1.0.skill` | ZIP archive with one top-level `ux-research/` folder | Single-file distribution to compatible skill loaders or archive-capable sessions |
 | `ux-research-v0.1.0.zip` | The same folder archive under a ZIP extension | Folder-based importers and transparent inspection |
 | `ux-research-gemini-v0.1.0.zip` | Same text files with SKILL.md at archive root | Gemini Spark's documented layout |
