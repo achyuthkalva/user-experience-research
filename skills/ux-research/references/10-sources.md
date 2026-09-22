@@ -15,7 +15,7 @@ Private source URLs, workspace identifiers, raw Notion exports, and project data
 ## Source-to-module map
 
 | Source material | Reusable implementation | Where |
-|---|---|---|
+| :--- | :--- | :--- |
 | S1 front matter, routing, scaffolding, modularity | Task router, minimal outputs, reference loading | SKILL.md |
 | S1 Parts 0–1, §1.2, Part 9 | Decision-first posture and honest lifecycle scope | 01, SKILL.md |
 | S1 §§2.1–2.4, 4.1–4.2 | Goal, RQs, tiers, evidence categories, scope defence | 01, T1–T3 |
@@ -37,7 +37,7 @@ Long teaching anecdotes, unverified commercial outcomes, exact incentive prices,
 ## Material adaptations implemented in this pilot
 
 | ID | Source tension or risk | Pilot rule and rationale |
-|---|---|---|
+| :--- | :--- | :--- |
 | C01 | S1 forbids invented methods but encourages discovery of unfamiliar ones | Keep source methods distinct from externally verified extensions; never invent attribution. |
 | C02 | Tier 1 must be answered; method exhaustion sounds absolute | Preserve decision-critical coverage; report a blocker when evidence is unavailable. Compare credible feasible alternatives, not all imaginable methods. |
 | C03 | The evidence ladder can look like a universal hierarchy | Preserve source categories as claim types; assess design quality and uncertainty separately. |
